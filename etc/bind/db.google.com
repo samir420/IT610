@@ -9,9 +9,11 @@ $TTL	604800
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-	IN	NS	www.google.com.
-www	IN	A	192.168.1.100
+@	IN	NS	www
+google.com	IN	A	192.168.1.10
+www	IN	A	192.168.1.10
 
-google.com		IN	A	192.168.1.100
 
+
+ns1	IN	CNAME	linux.redirect.
 

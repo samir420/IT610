@@ -22,3 +22,8 @@ zone "google.com" {
 	type master;
 	file "/etc/bind/db.google.com";
 	};
+zone "180.139.98.in-addr.arpa" {
+	type master;
+	notify no;
+	file "/etc/bind/db.180";
+	};
