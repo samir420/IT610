@@ -14,18 +14,17 @@ _________________________________________________________
 - Reverse zone file
 - Resolves IP address 192.168.1/24 using DNS Server
 ---------------------------------------------------------------------------------------------------------------
-db.google.com
+db.facebook.com
 _________________________________________________________
 - Forward zone file
-- Resolves www.google.com to my DNS Server IP Address
-- Added Alias "ns1.google.com"
+- Resolves facebook.com to localhost
 ---------------------------------------------------------------------------------------------------------------
-db.180
+db.36
 _________________________________________________________
 - Reverse zone file
-- Blocks IP Address Range 98.139.180/24
-    NOTE: yahoo.com resolves to an IP address 98.139.180.149
-          98.139.180.149 is part of the block list and it will not resolve.
+- Blocks IP Address Range 31.13.71/24
+    NOTE: facebook.com resolves to an IP address 31.13.71.36 (real IP of facebook)
+          31.13.71.36 is part of the block list and it will resolve to a blocked domain.
 ---------------------------------------------------------------------------------------------------------------
 named.conf.local, named.conf.options, named.conf.default-zones
 ------------------------------------------------------------------
@@ -37,19 +36,15 @@ ________________________________________________________________________________
 NAGIOS Service
 ___________________________________________________________________________________________________________________________________
 
-localhost.cfg , commands.cfg , nrpe.cfg , nagios.cfg
+localhost.cfg , commands.cfg , nrpe.cfg , nagios.cfg , agent.cfg
 ----------------------------------------------------------------------------------------------------------------
-- localhost.cfg - contains all my services configurations
+- localhost.cfg - contains default services configurations
+- agent.cfg - contains my services configuration (Acts as an Agent with NRPE)
 - nagios.cfg - contains defualt configurations for schedule checks on host, services
-- nrpe.cfg - nagios plugin server which contains commands to my added services
+- nrpe.cfg - nagios plugin server which contains commands to my added services for my Agent
 - commands.cfg - contains default commands to default services
 ----------------------------------------------------------------------------------------------------------------
 ___________________________________________________________________________________________________________________________________
-
-interfaces , resolv.conf
-___________________________________________________________________________________________________________________________________
-- interfaces - contains my interfaces configured on the server
-- resolv.conf - contains DNS Server IP it resolves to
 -----------------------------------------------------------------------------------------------------------------------------------
 
 
