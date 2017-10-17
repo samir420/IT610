@@ -10,8 +10,8 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	www
-google.com	IN	A	192.168.1.10
-www	IN	A	192.168.1.10
+google.com	IN	A	192.168.1.6
+www	IN	A	192.168.1.6
 
 
 
