@@ -3,15 +3,15 @@
 ;
 $TTL	604800
 @	IN	SOA	linux.rocks. root.localhost. (
-			      2		; Serial
+			      3		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	linux.rocks.
-@	IN	A	192.168.1.10
+@	IN	A	127.0.0.1
+*	IN	A	127.0.0.1
+*	IN	PTR	amazon.com
 
 
-www	IN	CNAME	alias.linux.rocks.
-www.IT610	IN	CNAME	alias.linux.rocks.

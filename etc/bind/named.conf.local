@@ -22,8 +22,13 @@ zone "google.com" {
 	type master;
 	file "/etc/bind/db.google.com";
 	};
-zone "180.139.98.in-addr.arpa" {
+
+zone "facebook.com" {
+	type master;
+	file "/etc/bind/db.facebook.com";
+	};
+zone "71.13.31.in-addr.arpa" {
 	type master;
 	notify no;
-	file "/etc/bind/db.180";
+	file "/etc/bind/db.36";
 	};
