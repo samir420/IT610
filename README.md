@@ -29,9 +29,9 @@ _________________________________________________________
 ---------------------------------------------------------------------------------------------------------------
 named.conf.local, named.conf.options, named.conf.default-zones
 ------------------------------------------------------------------
-named.conf.local - contains my zones
-named.conf.options - contains the configurations
-named.conf.default-zones - contains the local zones
+- named.conf.local - contains my zones
+- named.conf.options - contains the configurations
+- named.conf.default-zones - contains the local zones
 ___________________________________________________________________________________________________________________________________
 
 NAGIOS Service
@@ -39,17 +39,17 @@ ________________________________________________________________________________
 
 localhost.cfg , commands.cfg , nrpe.cfg , nagios.cfg
 ----------------------------------------------------------------------------------------------------------------
-localhost.cfg - contains all my services configurations
-nagios.cfg - contains defualt configurations for schedule checks on host, services
-nrpe.cfg - nagios plugin server which contains commands to my added services
-commands.cfg - contains default commands to default services
+- localhost.cfg - contains all my services configurations
+- nagios.cfg - contains defualt configurations for schedule checks on host, services
+- nrpe.cfg - nagios plugin server which contains commands to my added services
+- commands.cfg - contains default commands to default services
 ----------------------------------------------------------------------------------------------------------------
 ___________________________________________________________________________________________________________________________________
 
 interfaces , resolv.conf
 ___________________________________________________________________________________________________________________________________
-interfaces - contains my interfaces configured on the server
-resolv.conf - contains DNS Server IP it resolves to
+- interfaces - contains my interfaces configured on the server
+- resolv.conf - contains DNS Server IP it resolves to
 -----------------------------------------------------------------------------------------------------------------------------------
 
 
