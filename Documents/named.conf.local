@@ -1,0 +1,34 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+
+zone "linux.rocks" {
+	type master;
+	file "/etc/bind/db.linux.rocks";
+	};
+
+zone "1.168.192.in-addr.arpa" {
+	type master;
+	notify no;
+	file "/etc/bind/db.192";
+};
+
+zone "google.com" {
+	type master;
+	file "/etc/bind/db.google.com";
+	};
+
+zone "facebook.com" {
+	type master;
+	file "/etc/bind/db.facebook.com";
+	};
+zone "71.13.31.in-addr.arpa" {
+	type master;
+	notify no;
+	file "/etc/bind/db.36";
+	};
