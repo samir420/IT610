@@ -1,0 +1,814 @@
+[1512744598] Nagios 4.2.0 starting... (PID=17838)
+[1512744598] Local time is Fri Dec 08 14:49:58 UTC 2017
+[1512744598] LOG VERSION: 2.0
+[1512744598] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512744598] qh: core query handler registered
+[1512744598] nerd: Channel hostchecks registered successfully
+[1512744598] nerd: Channel servicechecks registered successfully
+[1512744598] nerd: Channel opathchecks registered successfully
+[1512744598] nerd: Fully initialized and ready to rock!
+[1512744598] wproc: Successfully registered manager as @wproc with query handler
+[1512744598] wproc: Registry request: name=Core Worker 17842;pid=17842
+[1512744598] wproc: Registry request: name=Core Worker 17840;pid=17840
+[1512744598] wproc: Registry request: name=Core Worker 17841;pid=17841
+[1512744598] wproc: Registry request: name=Core Worker 17839;pid=17839
+[1512744598] Successfully launched command file worker with pid 17846
+[1512744612] Caught SIGTERM, shutting down...
+[1512744612] Caught SIGTERM, shutting down...
+[1512744612] Successfully shutdown... (PID=17838)
+[1512744612] Event broker module 'NERD' deinitialized successfully.
+[1512744612] Caught SIGTERM, shutting down...
+[1512744612] Nagios 4.2.0 starting... (PID=17855)
+[1512744612] Local time is Fri Dec 08 14:50:12 UTC 2017
+[1512744612] LOG VERSION: 2.0
+[1512744612] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512744612] qh: core query handler registered
+[1512744612] nerd: Channel hostchecks registered successfully
+[1512744612] nerd: Channel servicechecks registered successfully
+[1512744612] nerd: Channel opathchecks registered successfully
+[1512744612] nerd: Fully initialized and ready to rock!
+[1512744612] wproc: Successfully registered manager as @wproc with query handler
+[1512744612] wproc: Registry request: name=Core Worker 17861;pid=17861
+[1512744612] wproc: Registry request: name=Core Worker 17860;pid=17860
+[1512744612] wproc: Registry request: name=Core Worker 17859;pid=17859
+[1512744612] wproc: Registry request: name=Core Worker 17858;pid=17858
+[1512744612] Successfully launched command file worker with pid 17863
+[1512744860] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1512744920] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1512744980] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1512745040] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1512745040] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1512745040] wproc: NOTIFY job 4 from worker Core Worker 17860 is a non-check helper but exited with return code 127
+[1512745040] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1512745040] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1512745040] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1512745040] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1512745311] Caught SIGTERM, shutting down...
+[1512745311] Caught SIGTERM, shutting down...
+[1512745311] Successfully shutdown... (PID=17855)
+[1512745311] Event broker module 'NERD' deinitialized successfully.
+[1512745311] Caught SIGTERM, shutting down...
+[1512745311] Nagios 4.2.0 starting... (PID=25179)
+[1512745311] Local time is Fri Dec 08 15:01:51 UTC 2017
+[1512745311] LOG VERSION: 2.0
+[1512745311] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512745311] qh: core query handler registered
+[1512745311] nerd: Channel hostchecks registered successfully
+[1512745311] nerd: Channel servicechecks registered successfully
+[1512745311] nerd: Channel opathchecks registered successfully
+[1512745311] nerd: Fully initialized and ready to rock!
+[1512745311] wproc: Successfully registered manager as @wproc with query handler
+[1512745311] wproc: Registry request: name=Core Worker 25184;pid=25184
+[1512745311] wproc: Registry request: name=Core Worker 25185;pid=25185
+[1512745311] wproc: Registry request: name=Core Worker 25183;pid=25183
+[1512745311] wproc: Registry request: name=Core Worker 25182;pid=25182
+[1512745311] Successfully launched command file worker with pid 25187
+[1512745357] SERVICE ALERT: Local Agent;CPU;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745403] SERVICE ALERT: Local Agent;DNS Service Uptime;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745417] SERVICE ALERT: Local Agent;CPU;CRITICAL;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745449] SERVICE ALERT: Local Agent;HARD DISK Utilization;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745463] SERVICE ALERT: Local Agent;DNS Service Uptime;CRITICAL;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745477] SERVICE ALERT: Local Agent;CPU;CRITICAL;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745495] SERVICE ALERT: Local Agent;Network Traffic;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745509] SERVICE ALERT: Local Agent;HARD DISK Utilization;CRITICAL;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745523] SERVICE ALERT: Local Agent;DNS Service Uptime;CRITICAL;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745537] SERVICE ALERT: Local Agent;CPU;CRITICAL;HARD;4;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745555] SERVICE ALERT: Local Agent;Network Traffic;CRITICAL;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745569] SERVICE ALERT: Local Agent;HARD DISK Utilization;CRITICAL;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745583] SERVICE ALERT: Local Agent;DNS Service Uptime;CRITICAL;HARD;4;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745615] SERVICE ALERT: Local Agent;Network Traffic;CRITICAL;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745629] SERVICE ALERT: Local Agent;HARD DISK Utilization;CRITICAL;HARD;4;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512745675] SERVICE ALERT: Local Agent;Network Traffic;CRITICAL;HARD;4;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_nrpe, ...) failed. errno is 2: No such file or directory
+[1512746172] Caught SIGTERM, shutting down...
+[1512746172] Caught SIGTERM, shutting down...
+[1512746172] Successfully shutdown... (PID=25179)
+[1512746172] Event broker module 'NERD' deinitialized successfully.
+[1512746172] Caught SIGTERM, shutting down...
+[1512746172] Nagios 4.2.0 starting... (PID=25525)
+[1512746172] Local time is Fri Dec 08 15:16:12 UTC 2017
+[1512746172] LOG VERSION: 2.0
+[1512746172] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512746172] qh: core query handler registered
+[1512746172] nerd: Channel hostchecks registered successfully
+[1512746172] nerd: Channel servicechecks registered successfully
+[1512746172] nerd: Channel opathchecks registered successfully
+[1512746172] nerd: Fully initialized and ready to rock!
+[1512746172] wproc: Successfully registered manager as @wproc with query handler
+[1512746172] wproc: Registry request: name=Core Worker 25530;pid=25530
+[1512746172] wproc: Registry request: name=Core Worker 25529;pid=25529
+[1512746172] wproc: Registry request: name=Core Worker 25528;pid=25528
+[1512746172] wproc: Registry request: name=Core Worker 25527;pid=25527
+[1512746172] Error: Invalid host object directive 'ariables'.
+[1512746172] Error: Could not add object property in file '/usr/local/nagios/etc/servers/WebServer.cfg' on line 27.
+[1512746172] Bailing out due to one or more errors encountered in the configuration files. Run Nagios from the command line with the -v option to verify your config before restarting. (PID=25525)
+[1512746172] Event broker module 'NERD' deinitialized successfully.
+[1512746342] Nagios 4.2.0 starting... (PID=25589)
+[1512746342] Local time is Fri Dec 08 15:19:02 UTC 2017
+[1512746342] LOG VERSION: 2.0
+[1512746342] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512746342] qh: core query handler registered
+[1512746342] nerd: Channel hostchecks registered successfully
+[1512746342] nerd: Channel servicechecks registered successfully
+[1512746342] nerd: Channel opathchecks registered successfully
+[1512746342] nerd: Fully initialized and ready to rock!
+[1512746342] wproc: Successfully registered manager as @wproc with query handler
+[1512746342] wproc: Registry request: name=Core Worker 25593;pid=25593
+[1512746342] wproc: Registry request: name=Core Worker 25592;pid=25592
+[1512746342] wproc: Registry request: name=Core Worker 25591;pid=25591
+[1512746342] wproc: Registry request: name=Core Worker 25590;pid=25590
+[1512746342] Successfully launched command file worker with pid 25596
+[1512746342] HOST ALERT: Apache Web Server;DOWN;SOFT;1;check_ping: Invalid hostname/address - address
+[1512746402] HOST ALERT: Apache Web Server;DOWN;SOFT;2;check_ping: Invalid hostname/address - address
+[1512746402] SERVICE ALERT: Apache Web Server;Apache Web Server Status;UNKNOWN;SOFT;1;check_http: Invalid hostname/address - address
+[1512746462] SERVICE ALERT: Apache Web Server;PING;UNKNOWN;SOFT;1;check_ping: Invalid hostname/address - address
+[1512746462] SERVICE ALERT: Apache Web Server;Apache Web Server Status;UNKNOWN;SOFT;2;check_http: Invalid hostname/address - address
+[1512746462] HOST ALERT: Apache Web Server;DOWN;SOFT;3;check_ping: Invalid hostname/address - address
+[1512746522] HOST ALERT: Apache Web Server;DOWN;SOFT;4;check_ping: Invalid hostname/address - address
+[1512746522] SERVICE ALERT: Apache Web Server;PING;UNKNOWN;SOFT;2;check_ping: Invalid hostname/address - address
+[1512746522] SERVICE ALERT: Apache Web Server;Apache Web Server Status;UNKNOWN;SOFT;3;check_http: Invalid hostname/address - address
+[1512746582] SERVICE ALERT: Apache Web Server;Apache Web Server Status;UNKNOWN;HARD;4;check_http: Invalid hostname/address - address
+[1512746582] SERVICE ALERT: Apache Web Server;PING;UNKNOWN;SOFT;3;check_ping: Invalid hostname/address - address
+[1512746582] HOST ALERT: Apache Web Server;DOWN;SOFT;5;check_ping: Invalid hostname/address - address
+[1512746642] SERVICE ALERT: Apache Web Server;PING;UNKNOWN;HARD;4;check_ping: Invalid hostname/address - address
+[1512746642] HOST ALERT: Apache Web Server;DOWN;SOFT;6;check_ping: Invalid hostname/address - address
+[1512746702] HOST ALERT: Apache Web Server;DOWN;SOFT;7;check_ping: Invalid hostname/address - address
+[1512746762] HOST ALERT: Apache Web Server;DOWN;SOFT;8;check_ping: Invalid hostname/address - address
+[1512746822] HOST ALERT: Apache Web Server;DOWN;SOFT;9;check_ping: Invalid hostname/address - address
+[1512746882] HOST ALERT: Apache Web Server;DOWN;HARD;10;check_ping: Invalid hostname/address - address
+[1512746882] HOST NOTIFICATION: nagiosadmin;Apache Web Server;DOWN;notify-host-by-email;check_ping: Invalid hostname/address - address
+[1512746882] wproc: NOTIFY job 12 from worker Core Worker 25590 is a non-check helper but exited with return code 127
+[1512746882] wproc:   host=Apache Web Server; service=(none); contact=nagiosadmin
+[1512746882] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1512746882] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1512746882] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1512747312] Caught SIGTERM, shutting down...
+[1512747312] Caught SIGTERM, shutting down...
+[1512747312] Successfully shutdown... (PID=25589)
+[1512747312] Event broker module 'NERD' deinitialized successfully.
+[1512747312] Caught SIGTERM, shutting down...
+[1512747312] Nagios 4.2.0 starting... (PID=25857)
+[1512747312] Local time is Fri Dec 08 15:35:12 UTC 2017
+[1512747312] LOG VERSION: 2.0
+[1512747312] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512747312] qh: core query handler registered
+[1512747312] nerd: Channel hostchecks registered successfully
+[1512747312] nerd: Channel servicechecks registered successfully
+[1512747312] nerd: Channel opathchecks registered successfully
+[1512747312] nerd: Fully initialized and ready to rock!
+[1512747312] wproc: Successfully registered manager as @wproc with query handler
+[1512747312] wproc: Registry request: name=Core Worker 25861;pid=25861
+[1512747312] wproc: Registry request: name=Core Worker 25860;pid=25860
+[1512747312] wproc: Registry request: name=Core Worker 25859;pid=25859
+[1512747312] wproc: Registry request: name=Core Worker 25862;pid=25862
+[1512747312] Successfully launched command file worker with pid 25864
+[1512747339] EXTERNAL COMMAND: SCHEDULE_FORCED_HOST_CHECK;Apache Web Server;1512747337
+[1512747343] HOST ALERT: Apache Web Server;UP;HARD;10;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1512747343] HOST NOTIFICATION: nagiosadmin;Apache Web Server;UP;notify-host-by-email;PING OK - Packet loss = 0%, RTA = 0.51 ms
+[1512747343] wproc: NOTIFY job 2 from worker Core Worker 25860 is a non-check helper but exited with return code 127
+[1512747343] wproc:   host=Apache Web Server; service=(none); contact=nagiosadmin
+[1512747343] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1512747343] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1512747343] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1512747375] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Apache Web Server;Apache Web Server Status;1512747374
+[1512747375] SERVICE ALERT: Apache Web Server;Apache Web Server Status;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 11595 bytes in 0.003 second response time
+[1512747385] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Apache Web Server;PING;1512747383
+[1512747389] SERVICE ALERT: Apache Web Server;PING;OK;HARD;4;PING OK - Packet loss = 0%, RTA = 0.54 ms
+[1512747425] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;MySQL;PING;1512747423
+[1512747646] HOST ALERT: MySQL;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1512747673] HOST ALERT: Apache Web Server;DOWN;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1512747685] SERVICE ALERT: Apache Web Server;Apache Web Server Status;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1512747695] SERVICE ALERT: Apache Web Server;PING;CRITICAL;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1512747715] HOST ALERT: Apache Web Server;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1512747735] SERVICE ALERT: MySQL;PING;CRITICAL;SOFT;1;PING CRITICAL - Packet loss = 100%
+[1512747736] HOST ALERT: MySQL;DOWN;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1512747742] wproc: Core Worker 25861: job 9 (pid=26036) timed out. Killing it
+[1512747743] wproc: CHECK job 9 from worker Core Worker 25861 timed out after 61.01s
+[1512747743] wproc:   host=MySQL; service=MySQL Status;
+[1512747743] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512747743] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.009s!
+[1512747743] SERVICE ALERT: MySQL;MySQL Status;CRITICAL;SOFT;1;(Service check timed out after 61.01 seconds)
+[1512747743] wproc: Core Worker 25861: job 9 (pid=26036): Dormant child reaped
+[1512747745] SERVICE ALERT: Apache Web Server;Apache Web Server Status;CRITICAL;SOFT;2;CRITICAL - Socket timeout
+[1512747755] SERVICE ALERT: Apache Web Server;PING;CRITICAL;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1512747773] HOST ALERT: MySQL;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1512747775] HOST ALERT: Apache Web Server;DOWN;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1512747795] SERVICE ALERT: MySQL;PING;CRITICAL;SOFT;2;PING CRITICAL - Packet loss = 100%
+[1512747803] wproc: Core Worker 25862: job 11 (pid=26057) timed out. Killing it
+[1512747804] wproc: CHECK job 11 from worker Core Worker 25862 timed out after 61.01s
+[1512747804] wproc:   host=MySQL; service=MySQL Status;
+[1512747804] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512747804] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.007s!
+[1512747804] SERVICE ALERT: MySQL;MySQL Status;CRITICAL;SOFT;2;(Service check timed out after 61.01 seconds)
+[1512747804] wproc: Core Worker 25862: job 11 (pid=26057): Dormant child reaped
+[1512747805] SERVICE ALERT: Apache Web Server;Apache Web Server Status;CRITICAL;SOFT;3;CRITICAL - Socket timeout
+[1512747815] SERVICE ALERT: Apache Web Server;PING;CRITICAL;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1512747825] HOST ALERT: MySQL;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1512747835] HOST ALERT: Apache Web Server;DOWN;SOFT;4;PING CRITICAL - Packet loss = 100%
+[1512747855] SERVICE ALERT: MySQL;PING;CRITICAL;SOFT;3;PING CRITICAL - Packet loss = 100%
+[1512747864] wproc: Core Worker 25861: job 14 (pid=26073) timed out. Killing it
+[1512747865] SERVICE ALERT: Apache Web Server;Apache Web Server Status;CRITICAL;HARD;4;CRITICAL - Socket timeout
+[1512747865] wproc: CHECK job 14 from worker Core Worker 25861 timed out after 61.02s
+[1512747865] wproc:   host=MySQL; service=MySQL Status;
+[1512747865] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512747865] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.024s!
+[1512747865] SERVICE ALERT: MySQL;MySQL Status;CRITICAL;SOFT;3;(Service check timed out after 61.02 seconds)
+[1512747865] wproc: Core Worker 25861: job 14 (pid=26073): Dormant child reaped
+[1512747875] SERVICE ALERT: Apache Web Server;PING;CRITICAL;HARD;4;PING CRITICAL - Packet loss = 100%
+[1512747885] HOST ALERT: MySQL;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1512747895] HOST ALERT: Apache Web Server;DOWN;SOFT;5;PING CRITICAL - Packet loss = 100%
+[1512747915] SERVICE ALERT: MySQL;PING;CRITICAL;HARD;4;PING CRITICAL - Packet loss = 100%
+[1512747925] wproc: Core Worker 25859: job 16 (pid=26090) timed out. Killing it
+[1512747926] wproc: CHECK job 16 from worker Core Worker 25859 timed out after 61.01s
+[1512747926] wproc:   host=MySQL; service=MySQL Status;
+[1512747926] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512747926] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.009s!
+[1512747926] SERVICE ALERT: MySQL;MySQL Status;CRITICAL;HARD;4;(Service check timed out after 61.01 seconds)
+[1512747926] wproc: Core Worker 25859: job 16 (pid=26090): Dormant child reaped
+[1512747945] HOST ALERT: MySQL;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1512747985] HOST ALERT: Apache Web Server;DOWN;SOFT;6;PING CRITICAL - Packet loss = 100%
+[1512748035] HOST ALERT: MySQL;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1512748075] HOST ALERT: Apache Web Server;DOWN;SOFT;7;PING CRITICAL - Packet loss = 100%
+[1512748125] HOST ALERT: MySQL;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1512748165] HOST ALERT: Apache Web Server;DOWN;SOFT;8;PING CRITICAL - Packet loss = 100%
+[1512748195] HOST ALERT: Apache Web Server;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1512748215] HOST ALERT: MySQL;DOWN;SOFT;9;PING CRITICAL - Packet loss = 100%
+[1512748225] wproc: Core Worker 25862: job 23 (pid=26146) timed out. Killing it
+[1512748226] wproc: CHECK job 23 from worker Core Worker 25862 timed out after 61.01s
+[1512748226] wproc:   host=MySQL; service=MySQL Status;
+[1512748226] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512748226] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.010s!
+[1512748226] wproc: Core Worker 25862: job 23 (pid=26146): Dormant child reaped
+[1512748245] HOST ALERT: MySQL;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1512748245] HOST NOTIFICATION: nagiosadmin;MySQL;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1512748245] wproc: NOTIFY job 26 from worker Core Worker 25862 is a non-check helper but exited with return code 127
+[1512748245] wproc:   host=MySQL; service=(none); contact=nagiosadmin
+[1512748245] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1512748245] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1512748245] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1512748285] HOST ALERT: Apache Web Server;DOWN;HARD;10;PING CRITICAL - Packet loss = 100%
+[1512748285] HOST NOTIFICATION: nagiosadmin;Apache Web Server;DOWN;notify-host-by-email;PING CRITICAL - Packet loss = 100%
+[1512748285] wproc: NOTIFY job 27 from worker Core Worker 25859 is a non-check helper but exited with return code 127
+[1512748285] wproc:   host=Apache Web Server; service=(none); contact=nagiosadmin
+[1512748285] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1512748285] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1512748285] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1512748462] Caught SIGTERM, shutting down...
+[1512748462] Caught SIGTERM, shutting down...
+[1512748462] wproc: Socket to worker Core Worker 25859 broken, removing
+[1512748462] wproc: Socket to worker Core Worker 25860 broken, removing
+[1512748462] wproc: Socket to worker Core Worker 25861 broken, removing
+[1512748462] wproc: 'Core Worker 25862' seems to be choked. ret = -1; bufsize = 93: written = 0; errno = 32 (Broken pipe)
+[1512748462] wproc: Socket to worker Core Worker 25862 broken, removing
+[1512748462] Successfully shutdown... (PID=25857)
+[1512748462] Event broker module 'NERD' deinitialized successfully.
+[1512748462] Caught SIGTERM, shutting down...
+[1512758875] Nagios 4.2.0 starting... (PID=1136)
+[1512758875] Local time is Fri Dec 08 18:47:55 UTC 2017
+[1512758875] LOG VERSION: 2.0
+[1512758875] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512758875] qh: core query handler registered
+[1512758875] nerd: Channel hostchecks registered successfully
+[1512758875] nerd: Channel servicechecks registered successfully
+[1512758875] nerd: Channel opathchecks registered successfully
+[1512758875] nerd: Fully initialized and ready to rock!
+[1512758875] wproc: Successfully registered manager as @wproc with query handler
+[1512758875] wproc: Registry request: name=Core Worker 1149;pid=1149
+[1512758875] wproc: Registry request: name=Core Worker 1148;pid=1148
+[1512758875] wproc: Registry request: name=Core Worker 1147;pid=1147
+[1512758875] wproc: Registry request: name=Core Worker 1146;pid=1146
+[1512758875] Successfully launched command file worker with pid 1151
+[1512758905] wproc: Core Worker 1149: job 0 (pid=1152) timed out. Killing it
+[1512758906] wproc: CHECK job 0 from worker Core Worker 1149 timed out after 31.01s
+[1512758906] wproc:   host=Apache Web Server; service=(null);
+[1512758906] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512758906] Warning: Check of host 'Apache Web Server' timed out after 31.01 seconds
+[1512758906] wproc: Core Worker 1149: job 0 (pid=1152): Dormant child reaped
+[1512758998] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1512758998] wproc: NOTIFY job 2 from worker Core Worker 1149 is a non-check helper but exited with return code 127
+[1512758998] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1512758998] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1512758998] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1512758998] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1512759164] wproc: Core Worker 1149: job 5 (pid=1526) timed out. Killing it
+[1512759164] wproc: CHECK job 5 from worker Core Worker 1149 timed out after 60.01s
+[1512759164] wproc:   host=MySQL; service=MySQL Status;
+[1512759164] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512759164] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 60.013s!
+[1512759164] wproc: Core Worker 1149: job 5 (pid=1526): Dormant child reaped
+[1512759194] wproc: Core Worker 1147: job 6 (pid=4967) timed out. Killing it
+[1512759194] wproc: CHECK job 6 from worker Core Worker 1147 timed out after 30.01s
+[1512759194] wproc:   host=MySQL; service=(null);
+[1512759194] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512759194] Warning: Check of host 'MySQL' timed out after 30.01 seconds
+[1512759194] wproc: Core Worker 1147: job 6 (pid=4967): Dormant child reaped
+[1512759464] wproc: Core Worker 1148: job 11 (pid=5047) timed out. Killing it
+[1512759465] wproc: CHECK job 11 from worker Core Worker 1148 timed out after 61.01s
+[1512759465] wproc:   host=MySQL; service=MySQL Status;
+[1512759465] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512759465] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512759465] wproc: Core Worker 1148: job 11 (pid=5047): Dormant child reaped
+[1512759495] wproc: Core Worker 1146: job 12 (pid=5060) timed out. Killing it
+[1512759496] wproc: CHECK job 12 from worker Core Worker 1146 timed out after 31.01s
+[1512759496] wproc:   host=MySQL; service=(null);
+[1512759496] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512759496] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512759496] wproc: Core Worker 1146: job 12 (pid=5060): Dormant child reaped
+[1512759764] wproc: Core Worker 1147: job 17 (pid=5184) timed out. Killing it
+[1512759765] wproc: CHECK job 17 from worker Core Worker 1147 timed out after 61.01s
+[1512759765] wproc:   host=MySQL; service=MySQL Status;
+[1512759765] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512759765] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.011s!
+[1512759765] wproc: Core Worker 1147: job 17 (pid=5184): Dormant child reaped
+[1512759795] wproc: Core Worker 1149: job 19 (pid=5194) timed out. Killing it
+[1512759796] wproc: CHECK job 19 from worker Core Worker 1149 timed out after 31.01s
+[1512759796] wproc:   host=MySQL; service=(null);
+[1512759796] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512759796] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512759796] wproc: Core Worker 1149: job 19 (pid=5194): Dormant child reaped
+[1512760064] wproc: Core Worker 1146: job 23 (pid=5234) timed out. Killing it
+[1512760065] wproc: CHECK job 23 from worker Core Worker 1146 timed out after 61.01s
+[1512760065] wproc:   host=MySQL; service=MySQL Status;
+[1512760065] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512760065] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512760065] wproc: Core Worker 1146: job 23 (pid=5234): Dormant child reaped
+[1512760095] wproc: Core Worker 1148: job 25 (pid=5244) timed out. Killing it
+[1512760096] wproc: CHECK job 25 from worker Core Worker 1148 timed out after 31.01s
+[1512760096] wproc:   host=MySQL; service=(null);
+[1512760096] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512760096] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512760096] wproc: Core Worker 1148: job 25 (pid=5244): Dormant child reaped
+[1512760364] wproc: Core Worker 1149: job 30 (pid=5324) timed out. Killing it
+[1512760365] wproc: CHECK job 30 from worker Core Worker 1149 timed out after 61.01s
+[1512760365] wproc:   host=MySQL; service=MySQL Status;
+[1512760365] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512760365] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512760365] wproc: Core Worker 1149: job 30 (pid=5324): Dormant child reaped
+[1512760395] wproc: Core Worker 1147: job 31 (pid=5335) timed out. Killing it
+[1512760395] wproc: CHECK job 31 from worker Core Worker 1147 timed out after 30.01s
+[1512760395] wproc:   host=MySQL; service=(null);
+[1512760395] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512760395] Warning: Check of host 'MySQL' timed out after 30.01 seconds
+[1512760395] wproc: Core Worker 1147: job 31 (pid=5335): Dormant child reaped
+[1512760664] wproc: Core Worker 1148: job 36 (pid=5387) timed out. Killing it
+[1512760664] wproc: CHECK job 36 from worker Core Worker 1148 timed out after 60.01s
+[1512760664] wproc:   host=MySQL; service=MySQL Status;
+[1512760664] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512760664] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 60.013s!
+[1512760664] wproc: Core Worker 1148: job 36 (pid=5387): Dormant child reaped
+[1512760694] wproc: Core Worker 1146: job 37 (pid=5403) timed out. Killing it
+[1512760695] wproc: CHECK job 37 from worker Core Worker 1146 timed out after 31.01s
+[1512760695] wproc:   host=MySQL; service=(null);
+[1512760695] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512760695] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512760695] wproc: Core Worker 1146: job 37 (pid=5403): Dormant child reaped
+[1512760964] wproc: Core Worker 1147: job 42 (pid=5462) timed out. Killing it
+[1512760965] wproc: CHECK job 42 from worker Core Worker 1147 timed out after 61.01s
+[1512760965] wproc:   host=MySQL; service=MySQL Status;
+[1512760965] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512760965] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512760965] wproc: Core Worker 1147: job 42 (pid=5462): Dormant child reaped
+[1512761264] wproc: Core Worker 1146: job 48 (pid=5507) timed out. Killing it
+[1512761265] wproc: CHECK job 48 from worker Core Worker 1146 timed out after 61.01s
+[1512761265] wproc:   host=MySQL; service=MySQL Status;
+[1512761265] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512761265] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512761265] wproc: Core Worker 1146: job 48 (pid=5507): Dormant child reaped
+[1512761295] wproc: Core Worker 1148: job 50 (pid=5527) timed out. Killing it
+[1512761295] wproc: CHECK job 50 from worker Core Worker 1148 timed out after 30.01s
+[1512761295] wproc:   host=MySQL; service=(null);
+[1512761295] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512761295] Warning: Check of host 'MySQL' timed out after 30.01 seconds
+[1512761295] wproc: Core Worker 1148: job 50 (pid=5527): Dormant child reaped
+[1512761564] wproc: Core Worker 1149: job 55 (pid=5607) timed out. Killing it
+[1512761565] wproc: CHECK job 55 from worker Core Worker 1149 timed out after 61.01s
+[1512761565] wproc:   host=MySQL; service=MySQL Status;
+[1512761565] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512761565] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512761565] wproc: Core Worker 1149: job 55 (pid=5607): Dormant child reaped
+[1512761595] wproc: Core Worker 1147: job 56 (pid=5617) timed out. Killing it
+[1512761596] wproc: CHECK job 56 from worker Core Worker 1147 timed out after 31.01s
+[1512761596] wproc:   host=MySQL; service=(null);
+[1512761596] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512761596] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512761596] wproc: Core Worker 1147: job 56 (pid=5617): Dormant child reaped
+[1512761864] wproc: Core Worker 1148: job 61 (pid=5653) timed out. Killing it
+[1512761865] wproc: CHECK job 61 from worker Core Worker 1148 timed out after 61.01s
+[1512761865] wproc:   host=MySQL; service=MySQL Status;
+[1512761865] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512761865] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512761865] wproc: Core Worker 1148: job 61 (pid=5653): Dormant child reaped
+[1512762164] wproc: Core Worker 1147: job 67 (pid=5769) timed out. Killing it
+[1512762165] wproc: CHECK job 67 from worker Core Worker 1147 timed out after 61.01s
+[1512762165] wproc:   host=MySQL; service=MySQL Status;
+[1512762165] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512762165] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.012s!
+[1512762165] wproc: Core Worker 1147: job 67 (pid=5769): Dormant child reaped
+[1512762195] wproc: Core Worker 1149: job 69 (pid=5778) timed out. Killing it
+[1512762196] wproc: CHECK job 69 from worker Core Worker 1149 timed out after 31.01s
+[1512762196] wproc:   host=MySQL; service=(null);
+[1512762196] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512762196] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512762196] wproc: Core Worker 1149: job 69 (pid=5778): Dormant child reaped
+[1512762464] wproc: Core Worker 1146: job 73 (pid=5829) timed out. Killing it
+[1512762465] wproc: CHECK job 73 from worker Core Worker 1146 timed out after 61.01s
+[1512762465] wproc:   host=MySQL; service=MySQL Status;
+[1512762465] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512762465] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512762465] wproc: Core Worker 1146: job 73 (pid=5829): Dormant child reaped
+[1512762474] Auto-save of retention data completed successfully.
+[1512762764] wproc: Core Worker 1149: job 80 (pid=5875) timed out. Killing it
+[1512762765] wproc: CHECK job 80 from worker Core Worker 1149 timed out after 61.01s
+[1512762765] wproc:   host=MySQL; service=MySQL Status;
+[1512762765] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512762765] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.012s!
+[1512762765] wproc: Core Worker 1149: job 80 (pid=5875): Dormant child reaped
+[1512762897] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1512762897] wproc: NOTIFY job 83 from worker Core Worker 1146 is a non-check helper but exited with return code 127
+[1512762897] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1512762897] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1512762897] wproc:   stderr line 01: /bin/sh: 1: /bin/mail: not found
+[1512762897] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1512763064] wproc: Core Worker 1147: job 86 (pid=5945) timed out. Killing it
+[1512763065] wproc: CHECK job 86 from worker Core Worker 1147 timed out after 61.01s
+[1512763065] wproc:   host=MySQL; service=MySQL Status;
+[1512763065] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512763065] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512763065] wproc: Core Worker 1147: job 86 (pid=5945): Dormant child reaped
+[1512763364] wproc: Core Worker 1146: job 92 (pid=6024) timed out. Killing it
+[1512763365] wproc: CHECK job 92 from worker Core Worker 1146 timed out after 61.01s
+[1512763365] wproc:   host=MySQL; service=MySQL Status;
+[1512763365] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512763365] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.012s!
+[1512763365] wproc: Core Worker 1146: job 92 (pid=6024): Dormant child reaped
+[1512763664] wproc: Core Worker 1149: job 99 (pid=6076) timed out. Killing it
+[1512763665] wproc: CHECK job 99 from worker Core Worker 1149 timed out after 61.01s
+[1512763665] wproc:   host=MySQL; service=MySQL Status;
+[1512763665] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512763665] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512763665] wproc: Core Worker 1149: job 99 (pid=6076): Dormant child reaped
+[1512763964] wproc: Core Worker 1148: job 105 (pid=6180) timed out. Killing it
+[1512763965] wproc: CHECK job 105 from worker Core Worker 1148 timed out after 61.01s
+[1512763965] wproc:   host=MySQL; service=MySQL Status;
+[1512763965] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512763965] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.013s!
+[1512763965] wproc: Core Worker 1148: job 105 (pid=6180): Dormant child reaped
+[1512763995] wproc: Core Worker 1146: job 106 (pid=6191) timed out. Killing it
+[1512763995] wproc: CHECK job 106 from worker Core Worker 1146 timed out after 30.01s
+[1512763995] wproc:   host=MySQL; service=(null);
+[1512763995] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512763995] Warning: Check of host 'MySQL' timed out after 30.01 seconds
+[1512763995] wproc: Core Worker 1146: job 106 (pid=6191): Dormant child reaped
+[1512764264] wproc: Core Worker 1147: job 111 (pid=6230) timed out. Killing it
+[1512764265] wproc: CHECK job 111 from worker Core Worker 1147 timed out after 61.01s
+[1512764265] wproc:   host=MySQL; service=MySQL Status;
+[1512764265] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512764265] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.012s!
+[1512764265] wproc: Core Worker 1147: job 111 (pid=6230): Dormant child reaped
+[1512764295] wproc: Core Worker 1149: job 113 (pid=6246) timed out. Killing it
+[1512764296] wproc: CHECK job 113 from worker Core Worker 1149 timed out after 31.01s
+[1512764296] wproc:   host=MySQL; service=(null);
+[1512764296] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512764296] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512764296] wproc: Core Worker 1149: job 113 (pid=6246): Dormant child reaped
+[1512764441] SERVICE ALERT: Local Agent;HARD DISK Utilization;OK;HARD;4;DISK OK - free space: / 6334 MB (80% inode=92%):
+[1512764486] SERVICE ALERT: Local Agent;CPU;OK;HARD;4;OK - user: , nice: , sys: , iowait: , irq: , softirq:  idle:
+[1512764517] Caught SIGTERM, shutting down...
+[1512764517] Caught SIGTERM, shutting down...
+[1512764517] Successfully shutdown... (PID=1136)
+[1512764517] Event broker module 'NERD' deinitialized successfully.
+[1512764517] Caught SIGTERM, shutting down...
+[1512764517] Nagios 4.2.0 starting... (PID=6585)
+[1512764517] Local time is Fri Dec 08 20:21:57 UTC 2017
+[1512764517] LOG VERSION: 2.0
+[1512764517] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512764517] qh: core query handler registered
+[1512764517] nerd: Channel hostchecks registered successfully
+[1512764517] nerd: Channel servicechecks registered successfully
+[1512764517] nerd: Channel opathchecks registered successfully
+[1512764517] nerd: Fully initialized and ready to rock!
+[1512764517] wproc: Successfully registered manager as @wproc with query handler
+[1512764517] wproc: Registry request: name=Core Worker 6590;pid=6590
+[1512764517] wproc: Registry request: name=Core Worker 6589;pid=6589
+[1512764517] wproc: Registry request: name=Core Worker 6588;pid=6588
+[1512764517] wproc: Registry request: name=Core Worker 6587;pid=6587
+[1512764517] Successfully launched command file worker with pid 6592
+[1512764541] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Local Agent;DNS Service Uptime;1512764539
+[1512764541] SERVICE ALERT: Local Agent;DNS Service Uptime;OK;HARD;4;/usr/sbin/named -f -u bind     01:24:23
+[1512764553] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Local Agent;Network Traffic;1512764551
+[1512764553] SERVICE ALERT: Local Agent;Network Traffic;OK;HARD;4;RX Bytes: 17MB, TX Bytes:  2MB: RX Speed: 0Bps, TX Speed: 0Bps: OK bandwidth utilization
+[1512764647] wproc: Core Worker 6588: job 1 (pid=6631) timed out. Killing it
+[1512764648] wproc: CHECK job 1 from worker Core Worker 6588 timed out after 61.03s
+[1512764648] wproc:   host=MySQL; service=MySQL Status;
+[1512764648] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512764648] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.033s!
+[1512764648] wproc: Core Worker 6588: job 1 (pid=6631): Dormant child reaped
+[1512764678] Caught SIGTERM, shutting down...
+[1512764678] Caught SIGTERM, shutting down...
+[1512764678] Successfully shutdown... (PID=6585)
+[1512764678] Event broker module 'NERD' deinitialized successfully.
+[1512764678] Caught SIGTERM, shutting down...
+[1512764678] Nagios 4.2.0 starting... (PID=6714)
+[1512764678] Local time is Fri Dec 08 20:24:38 UTC 2017
+[1512764678] LOG VERSION: 2.0
+[1512764678] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512764678] qh: core query handler registered
+[1512764678] nerd: Channel hostchecks registered successfully
+[1512764678] nerd: Channel servicechecks registered successfully
+[1512764678] nerd: Channel opathchecks registered successfully
+[1512764678] nerd: Fully initialized and ready to rock!
+[1512764678] wproc: Successfully registered manager as @wproc with query handler
+[1512764678] wproc: Registry request: name=Core Worker 6717;pid=6717
+[1512764678] wproc: Registry request: name=Core Worker 6719;pid=6719
+[1512764678] wproc: Registry request: name=Core Worker 6716;pid=6716
+[1512764678] wproc: Registry request: name=Core Worker 6718;pid=6718
+[1512764678] Successfully launched command file worker with pid 6721
+[1512764947] wproc: Core Worker 6719: job 4 (pid=6882) timed out. Killing it
+[1512764948] wproc: CHECK job 4 from worker Core Worker 6719 timed out after 61.05s
+[1512764948] wproc:   host=MySQL; service=MySQL Status;
+[1512764948] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512764948] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.050s!
+[1512764948] wproc: Core Worker 6719: job 4 (pid=6882): Dormant child reaped
+[1512765247] wproc: Core Worker 6718: job 9 (pid=7055) timed out. Killing it
+[1512765248] wproc: CHECK job 9 from worker Core Worker 6718 timed out after 61.03s
+[1512765248] wproc:   host=MySQL; service=MySQL Status;
+[1512765248] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512765248] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.032s!
+[1512765248] wproc: Core Worker 6718: job 9 (pid=7055): Dormant child reaped
+[1512765547] wproc: Core Worker 6719: job 15 (pid=7242) timed out. Killing it
+[1512765547] wproc: CHECK job 15 from worker Core Worker 6719 timed out after 60.06s
+[1512765547] wproc:   host=MySQL; service=MySQL Status;
+[1512765547] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512765547] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 60.061s!
+[1512765547] wproc: Core Worker 6719: job 15 (pid=7242): Dormant child reaped
+[1512765847] wproc: Core Worker 6718: job 20 (pid=7485) timed out. Killing it
+[1512765848] wproc: CHECK job 20 from worker Core Worker 6718 timed out after 61.04s
+[1512765848] wproc:   host=MySQL; service=MySQL Status;
+[1512765848] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512765848] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.036s!
+[1512765848] wproc: Core Worker 6718: job 20 (pid=7485): Dormant child reaped
+[1512766147] wproc: Core Worker 6719: job 26 (pid=7657) timed out. Killing it
+[1512766148] wproc: CHECK job 26 from worker Core Worker 6719 timed out after 61.03s
+[1512766148] wproc:   host=MySQL; service=MySQL Status;
+[1512766148] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512766148] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.034s!
+[1512766148] wproc: Core Worker 6719: job 26 (pid=7657): Dormant child reaped
+[1512766447] wproc: Core Worker 6718: job 31 (pid=7826) timed out. Killing it
+[1512766448] wproc: CHECK job 31 from worker Core Worker 6718 timed out after 61.07s
+[1512766448] wproc:   host=MySQL; service=MySQL Status;
+[1512766448] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512766448] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.065s!
+[1512766448] wproc: Core Worker 6718: job 31 (pid=7826): Dormant child reaped
+[1512766747] wproc: Core Worker 6719: job 37 (pid=7997) timed out. Killing it
+[1512766748] wproc: CHECK job 37 from worker Core Worker 6719 timed out after 61.01s
+[1512766748] wproc:   host=MySQL; service=MySQL Status;
+[1512766748] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512766748] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.012s!
+[1512766748] wproc: Core Worker 6719: job 37 (pid=7997): Dormant child reaped
+[1512767047] wproc: Core Worker 6718: job 42 (pid=8201) timed out. Killing it
+[1512767048] wproc: CHECK job 42 from worker Core Worker 6718 timed out after 61.05s
+[1512767048] wproc:   host=MySQL; service=MySQL Status;
+[1512767048] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512767048] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.055s!
+[1512767048] wproc: Core Worker 6718: job 42 (pid=8201): Dormant child reaped
+[1512767347] wproc: Core Worker 6719: job 48 (pid=12651) timed out. Killing it
+[1512767348] wproc: CHECK job 48 from worker Core Worker 6719 timed out after 61.07s
+[1512767348] wproc:   host=MySQL; service=MySQL Status;
+[1512767348] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512767348] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.065s!
+[1512767348] wproc: Core Worker 6719: job 48 (pid=12651): Dormant child reaped
+[1512767647] wproc: Core Worker 6718: job 53 (pid=12915) timed out. Killing it
+[1512767648] wproc: CHECK job 53 from worker Core Worker 6718 timed out after 61.04s
+[1512767648] wproc:   host=MySQL; service=MySQL Status;
+[1512767648] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512767648] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.044s!
+[1512767648] wproc: Core Worker 6718: job 53 (pid=12915): Dormant child reaped
+[1512767947] wproc: Core Worker 6719: job 59 (pid=13088) timed out. Killing it
+[1512767948] wproc: CHECK job 59 from worker Core Worker 6719 timed out after 61.07s
+[1512767948] wproc:   host=MySQL; service=MySQL Status;
+[1512767948] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512767948] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.065s!
+[1512767948] wproc: Core Worker 6719: job 59 (pid=13088): Dormant child reaped
+[1512768247] wproc: Core Worker 6718: job 64 (pid=13277) timed out. Killing it
+[1512768248] wproc: CHECK job 64 from worker Core Worker 6718 timed out after 61.07s
+[1512768248] wproc:   host=MySQL; service=MySQL Status;
+[1512768248] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512768248] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.065s!
+[1512768248] wproc: Core Worker 6718: job 64 (pid=13277): Dormant child reaped
+[1512768277] Auto-save of retention data completed successfully.
+[1512768547] wproc: Core Worker 6719: job 70 (pid=13470) timed out. Killing it
+[1512768548] wproc: CHECK job 70 from worker Core Worker 6719 timed out after 61.05s
+[1512768548] wproc:   host=MySQL; service=MySQL Status;
+[1512768548] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512768548] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.053s!
+[1512768548] wproc: Core Worker 6719: job 70 (pid=13470): Dormant child reaped
+[1512768847] wproc: Core Worker 6718: job 75 (pid=13639) timed out. Killing it
+[1512768848] wproc: CHECK job 75 from worker Core Worker 6718 timed out after 61.01s
+[1512768848] wproc:   host=MySQL; service=MySQL Status;
+[1512768848] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512768848] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.015s!
+[1512768848] wproc: Core Worker 6718: job 75 (pid=13639): Dormant child reaped
+[1512769147] wproc: Core Worker 6719: job 81 (pid=13808) timed out. Killing it
+[1512769148] wproc: CHECK job 81 from worker Core Worker 6719 timed out after 61.05s
+[1512769148] wproc:   host=MySQL; service=MySQL Status;
+[1512769148] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512769148] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.054s!
+[1512769148] wproc: Core Worker 6719: job 81 (pid=13808): Dormant child reaped
+[1512769447] wproc: Core Worker 6718: job 86 (pid=14043) timed out. Killing it
+[1512769448] wproc: CHECK job 86 from worker Core Worker 6718 timed out after 61.01s
+[1512769448] wproc:   host=MySQL; service=MySQL Status;
+[1512769448] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512769448] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.009s!
+[1512769448] wproc: Core Worker 6718: job 86 (pid=14043): Dormant child reaped
+[1512769747] wproc: Core Worker 6719: job 92 (pid=14212) timed out. Killing it
+[1512769748] wproc: CHECK job 92 from worker Core Worker 6719 timed out after 61.04s
+[1512769748] wproc:   host=MySQL; service=MySQL Status;
+[1512769748] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512769748] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.045s!
+[1512769748] wproc: Core Worker 6719: job 92 (pid=14212): Dormant child reaped
+[1512770047] wproc: Core Worker 6718: job 97 (pid=14399) timed out. Killing it
+[1512770048] wproc: CHECK job 97 from worker Core Worker 6718 timed out after 61.06s
+[1512770048] wproc:   host=MySQL; service=MySQL Status;
+[1512770048] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512770048] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.056s!
+[1512770048] wproc: Core Worker 6718: job 97 (pid=14399): Dormant child reaped
+[1512770300] Caught SIGTERM, shutting down...
+[1512770300] Caught SIGTERM, shutting down...
+[1512770300] Successfully shutdown... (PID=6714)
+[1512770300] Event broker module 'NERD' deinitialized successfully.
+[1512770300] Caught SIGTERM, shutting down...
+[1512770300] Nagios 4.2.0 starting... (PID=14666)
+[1512770300] Local time is Fri Dec 08 21:58:20 UTC 2017
+[1512770300] LOG VERSION: 2.0
+[1512770300] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1512770300] qh: core query handler registered
+[1512770300] nerd: Channel hostchecks registered successfully
+[1512770300] nerd: Channel servicechecks registered successfully
+[1512770300] nerd: Channel opathchecks registered successfully
+[1512770300] nerd: Fully initialized and ready to rock!
+[1512770300] wproc: Successfully registered manager as @wproc with query handler
+[1512770300] wproc: Registry request: name=Core Worker 14670;pid=14670
+[1512770300] wproc: Registry request: name=Core Worker 14671;pid=14671
+[1512770300] wproc: Registry request: name=Core Worker 14672;pid=14672
+[1512770300] wproc: Registry request: name=Core Worker 14669;pid=14669
+[1512770300] Successfully launched command file worker with pid 14674
+[1512770349] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;Apache Web Server;Apache Web Server Status;1512770347
+[1512770435] wproc: Core Worker 14670: job 1 (pid=14701) timed out. Killing it
+[1512770436] wproc: CHECK job 1 from worker Core Worker 14670 timed out after 61.00s
+[1512770436] wproc:   host=MySQL; service=MySQL Status;
+[1512770436] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512770436] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.002s!
+[1512770436] wproc: Core Worker 14670: job 1 (pid=14701): Dormant child reaped
+[1512770466] wproc: Core Worker 14671: job 2 (pid=14733) timed out. Killing it
+[1512770467] wproc: CHECK job 2 from worker Core Worker 14671 timed out after 31.01s
+[1512770467] wproc:   host=MySQL; service=(null);
+[1512770467] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512770467] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512770467] wproc: Core Worker 14671: job 2 (pid=14733): Dormant child reaped
+[1512770735] wproc: Core Worker 14672: job 6 (pid=14893) timed out. Killing it
+[1512770736] wproc: CHECK job 6 from worker Core Worker 14672 timed out after 61.01s
+[1512770736] wproc:   host=MySQL; service=MySQL Status;
+[1512770736] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512770736] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512770736] wproc: Core Worker 14672: job 6 (pid=14893): Dormant child reaped
+[1512771035] wproc: Core Worker 14670: job 12 (pid=15103) timed out. Killing it
+[1512771036] wproc: CHECK job 12 from worker Core Worker 14670 timed out after 61.01s
+[1512771036] wproc:   host=MySQL; service=MySQL Status;
+[1512771036] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512771036] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.009s!
+[1512771036] wproc: Core Worker 14670: job 12 (pid=15103): Dormant child reaped
+[1512771066] wproc: Core Worker 14671: job 13 (pid=15112) timed out. Killing it
+[1512771067] wproc: CHECK job 13 from worker Core Worker 14671 timed out after 31.01s
+[1512771067] wproc:   host=MySQL; service=(null);
+[1512771067] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512771067] Warning: Check of host 'MySQL' timed out after 31.01 seconds
+[1512771067] wproc: Core Worker 14671: job 13 (pid=15112): Dormant child reaped
+[1512771335] wproc: Core Worker 14672: job 17 (pid=15272) timed out. Killing it
+[1512771336] wproc: CHECK job 17 from worker Core Worker 14672 timed out after 61.01s
+[1512771336] wproc:   host=MySQL; service=MySQL Status;
+[1512771336] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512771336] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512771336] wproc: Core Worker 14672: job 17 (pid=15272): Dormant child reaped
+[1512771633] wproc: Core Worker 14670: job 23 (pid=17380) timed out. Killing it
+[1512771634] wproc: CHECK job 23 from worker Core Worker 14670 timed out after 61.01s
+[1512771634] wproc:   host=MySQL; service=MySQL Status;
+[1512771634] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512771634] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.007s!
+[1512771634] wproc: Core Worker 14670: job 23 (pid=17380): Dormant child reaped
+[1512771933] wproc: Core Worker 14672: job 28 (pid=17550) timed out. Killing it
+[1512771934] wproc: CHECK job 28 from worker Core Worker 14672 timed out after 61.01s
+[1512771934] wproc:   host=MySQL; service=MySQL Status;
+[1512771934] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512771934] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512771934] wproc: Core Worker 14672: job 28 (pid=17550): Dormant child reaped
+[1512772233] wproc: Core Worker 14670: job 34 (pid=18550) timed out. Killing it
+[1512772234] wproc: CHECK job 34 from worker Core Worker 14670 timed out after 61.01s
+[1512772234] wproc:   host=MySQL; service=MySQL Status;
+[1512772234] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512772234] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.007s!
+[1512772234] wproc: Core Worker 14670: job 34 (pid=18550): Dormant child reaped
+[1512772533] wproc: Core Worker 14672: job 39 (pid=18718) timed out. Killing it
+[1512772534] wproc: CHECK job 39 from worker Core Worker 14672 timed out after 61.01s
+[1512772534] wproc:   host=MySQL; service=MySQL Status;
+[1512772534] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512772534] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512772534] wproc: Core Worker 14672: job 39 (pid=18718): Dormant child reaped
+[1512772833] wproc: Core Worker 14670: job 45 (pid=18925) timed out. Killing it
+[1512772834] wproc: CHECK job 45 from worker Core Worker 14670 timed out after 61.01s
+[1512772834] wproc:   host=MySQL; service=MySQL Status;
+[1512772834] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512772834] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.007s!
+[1512772834] wproc: Core Worker 14670: job 45 (pid=18925): Dormant child reaped
+[1512773133] wproc: Core Worker 14672: job 50 (pid=19106) timed out. Killing it
+[1512773134] wproc: CHECK job 50 from worker Core Worker 14672 timed out after 61.01s
+[1512773134] wproc:   host=MySQL; service=MySQL Status;
+[1512773134] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512773134] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512773134] wproc: Core Worker 14672: job 50 (pid=19106): Dormant child reaped
+[1512773433] wproc: Core Worker 14670: job 56 (pid=19271) timed out. Killing it
+[1512773434] wproc: CHECK job 56 from worker Core Worker 14670 timed out after 61.01s
+[1512773434] wproc:   host=MySQL; service=MySQL Status;
+[1512773434] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512773434] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512773434] wproc: Core Worker 14670: job 56 (pid=19271): Dormant child reaped
+[1512773733] wproc: Core Worker 14672: job 61 (pid=19435) timed out. Killing it
+[1512773734] wproc: CHECK job 61 from worker Core Worker 14672 timed out after 61.01s
+[1512773734] wproc:   host=MySQL; service=MySQL Status;
+[1512773734] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512773734] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.007s!
+[1512773734] wproc: Core Worker 14672: job 61 (pid=19435): Dormant child reaped
+[1512773899] Auto-save of retention data completed successfully.
+[1512774033] wproc: Core Worker 14670: job 67 (pid=19600) timed out. Killing it
+[1512774034] wproc: CHECK job 67 from worker Core Worker 14670 timed out after 61.01s
+[1512774034] wproc:   host=MySQL; service=MySQL Status;
+[1512774034] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512774034] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512774034] wproc: Core Worker 14670: job 67 (pid=19600): Dormant child reaped
+[1512774333] wproc: Core Worker 14672: job 72 (pid=19767) timed out. Killing it
+[1512774334] wproc: CHECK job 72 from worker Core Worker 14672 timed out after 61.01s
+[1512774334] wproc:   host=MySQL; service=MySQL Status;
+[1512774334] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512774334] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.007s!
+[1512774334] wproc: Core Worker 14672: job 72 (pid=19767): Dormant child reaped
+[1512774633] wproc: Core Worker 14670: job 78 (pid=19997) timed out. Killing it
+[1512774634] wproc: CHECK job 78 from worker Core Worker 14670 timed out after 61.01s
+[1512774634] wproc:   host=MySQL; service=MySQL Status;
+[1512774634] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512774634] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512774634] wproc: Core Worker 14670: job 78 (pid=19997): Dormant child reaped
+[1512774933] wproc: Core Worker 14672: job 83 (pid=20165) timed out. Killing it
+[1512774934] wproc: CHECK job 83 from worker Core Worker 14672 timed out after 61.01s
+[1512774934] wproc:   host=MySQL; service=MySQL Status;
+[1512774934] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512774934] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512774934] wproc: Core Worker 14672: job 83 (pid=20165): Dormant child reaped
+[1512775233] wproc: Core Worker 14670: job 89 (pid=20336) timed out. Killing it
+[1512775234] wproc: CHECK job 89 from worker Core Worker 14670 timed out after 61.01s
+[1512775234] wproc:   host=MySQL; service=MySQL Status;
+[1512775234] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512775234] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512775234] wproc: Core Worker 14670: job 89 (pid=20336): Dormant child reaped
+[1512775533] wproc: Core Worker 14672: job 94 (pid=20502) timed out. Killing it
+[1512775534] wproc: CHECK job 94 from worker Core Worker 14672 timed out after 61.01s
+[1512775534] wproc:   host=MySQL; service=MySQL Status;
+[1512775534] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512775534] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.007s!
+[1512775534] wproc: Core Worker 14672: job 94 (pid=20502): Dormant child reaped
+[1512775833] wproc: Core Worker 14670: job 100 (pid=20667) timed out. Killing it
+[1512775834] wproc: CHECK job 100 from worker Core Worker 14670 timed out after 61.01s
+[1512775834] wproc:   host=MySQL; service=MySQL Status;
+[1512775834] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512775834] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512775834] wproc: Core Worker 14670: job 100 (pid=20667): Dormant child reaped
+[1512776133] wproc: Core Worker 14672: job 105 (pid=20832) timed out. Killing it
+[1512776134] wproc: CHECK job 105 from worker Core Worker 14672 timed out after 61.01s
+[1512776134] wproc:   host=MySQL; service=MySQL Status;
+[1512776134] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512776134] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512776134] wproc: Core Worker 14672: job 105 (pid=20832): Dormant child reaped
+[1512776433] wproc: Core Worker 14670: job 111 (pid=21054) timed out. Killing it
+[1512776434] wproc: CHECK job 111 from worker Core Worker 14670 timed out after 61.01s
+[1512776434] wproc:   host=MySQL; service=MySQL Status;
+[1512776434] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512776434] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512776434] wproc: Core Worker 14670: job 111 (pid=21054): Dormant child reaped
+[1512776733] wproc: Core Worker 14672: job 116 (pid=21218) timed out. Killing it
+[1512776734] wproc: CHECK job 116 from worker Core Worker 14672 timed out after 61.01s
+[1512776734] wproc:   host=MySQL; service=MySQL Status;
+[1512776734] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512776734] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.008s!
+[1512776734] wproc: Core Worker 14672: job 116 (pid=21218): Dormant child reaped
+[1512777033] wproc: Core Worker 14670: job 122 (pid=21383) timed out. Killing it
+[1512777033] wproc: CHECK job 122 from worker Core Worker 14670 timed out after 60.01s
+[1512777033] wproc:   host=MySQL; service=MySQL Status;
+[1512777033] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512777033] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 60.008s!
+[1512777033] wproc: Core Worker 14670: job 122 (pid=21383): Dormant child reaped
+[1512777333] wproc: Core Worker 14672: job 127 (pid=21550) timed out. Killing it
+[1512777334] wproc: CHECK job 127 from worker Core Worker 14672 timed out after 61.01s
+[1512777334] wproc:   host=MySQL; service=MySQL Status;
+[1512777334] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1512777334] Warning: Check of service 'MySQL Status' on host 'MySQL' timed out after 61.007s!
+[1512777334] wproc: Core Worker 14672: job 127 (pid=21550): Dormant child reaped
+[1512777499] Auto-save of retention data completed successfully.
+[1512787999] Caught SIGTERM, shutting down...
+[1512787999] Caught SIGTERM, shutting down...

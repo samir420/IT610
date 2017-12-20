@@ -1,0 +1,1 @@
+ps -eo cmd,etime | grep named| grep -v grep
