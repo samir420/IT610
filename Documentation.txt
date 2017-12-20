@@ -1,0 +1,94 @@
+Documentation
+
+--- Nagios/DNS Server
+
+--Nagios/DNS Server
+
+- Installation 
+
+Below URL contains instruction to install Nagios Server:
+
+	https://tecadmin.net/install-nagios-monitoring-server-on-ubuntu/#
+
+Below URL contains instructions to install Nagios NRPE Agent:
+	
+	https://tecadmin.net/install-nrpe-on-ubuntu/
+
+Below URL contains instructions to install DNS Server:
+	
+	https://www.ostechnix.com/install-and-configure-dns-server-ubuntu-16-04-lts/
+
+- Nagios Server Configuration
+
+Nagios.cfg - Added MySQL and Webserver host to monitor.
+
+Commands.cfg - Added NRPE command to activate NRPE installed plugins.
+
+LocalAgent.cfg - Created this file to perform DNS Server service checks.
+		Services: Ping and DNS Service Uptime
+		Notification: Added Notification entry to send email when Services or Host is 			      down/up.
+
+MySQL.cfg - Created this file to perform SQL Server service checks.
+		Services: Ping and SQL Server Active
+		Notification: Added Notification entry to send email when Services or Host is 			      			down/up.
+
+Webserver.cfg - Created this file to perfrom Webserver Service checks.
+		Services: Ping and apache2 service Active
+		Notification: Added Notification entry to send email when Services or Host is 			      		down/up.
+
+- DNS Server Configuration
+
+named.conf.local - Listed all the forward zones and reverse zones found below to resolve.
+
+named.conf.options - added google forwarders to resolve names/ip.
+
+db.google.com - Created this file to resolve google.com to localhost
+
+db.facebook.com - Created this file to resolve facebook.com to unknown host
+
+db.31 - Created this file to blocklist facebook.com IPs.
+
+-- POSTFIX and mailx
+
+Installed POSTFIX and MailX to send email.
+
+Below URL to install and configure email:
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-16-04
+
+--- Web Server
+
+Installation
+
+Nagios NRPE Agent needs to be installed using link above.
+
+Apache2 Installation URL - https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-16-04
+
+Nrpe.cfg - Modified this file to allow Nagios/DNS Server host to connect.
+
+
+--- MySQL Server
+
+Nagios NRPE Agent needs to be installed using link above.
+
+MySQL Installation URL - https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
+
+Nrpe.cfg - Modified this file to allwo Nagios/DNS Server host to connect.
+
+sqldump.sh - Created this script to backup all the databases and rotate the backup 7 days.
+
+Added the sqldump.sh to crontab to run every day.
+
+Command - Crontab -e
+
+
+All of the URL posted above were followed step by step to install and configure the servers.
+
+
+
+
+
+
+
+
+
