@@ -1,25 +1,27 @@
-# IT610 FINAL Proejct Files
+# IT610 FINAL PROJECT FILES
 
 -----------------------------------------------------------------------------------------------------------------------------
 DNS SERVER
 -----------------------------------------------------------------------------------------------------------------------------
+//Located Under /Nagios/bind
 db.linux.rocks
 _________________________________________________________
 - Forward zone file
 - Resolves hostname linux.rocks using DNS Server
-- Added Alias "www.IT610.linux.rocks"
 ---------------------------------------------------------------------------------------------------------------
-db.192
+db.google.com
 _________________________________________________________
-- Reverse zone file
-- Resolves IP address 192.168.1/24 using DNS Server
+- Forward zone file
+- Redirects www.google.com to localhost
+- Resolves Google.com to local IP address 127.0.0.1 using DNS Server
 ---------------------------------------------------------------------------------------------------------------
 db.facebook.com
 _________________________________________________________
 - Forward zone file
-- Resolves facebook.com to localhost
+- www.facebook.com has been blocked. IP range of facebook has been blacklisted.
+- Resolves facebook.com to unknown address
 ---------------------------------------------------------------------------------------------------------------
-db.36
+db.31
 _________________________________________________________
 - Reverse zone file
 - Blocks IP Address Range 31.13.71/24
@@ -33,13 +35,18 @@ named.conf.local, named.conf.options, named.conf.default-zones
 - named.conf.default-zones - contains the local zones
 ___________________________________________________________________________________________________________________________________
 
+-----------------------------------------------------------------------------------------------
+---------------
 NAGIOS Service
-___________________________________________________________________________________________________________________________________
+---------------
+----------------------------------------------------------------------------------------------
 
-localhost.cfg , commands.cfg , nrpe.cfg , nagios.cfg , agent.cfg
+localhost.cfg , commands.cfg , nrpe.cfg , nagios.cfg , LocalAgent.cfg,  Webserver.cfg, MySQL.cfg
 ----------------------------------------------------------------------------------------------------------------
 - localhost.cfg - contains default services configurations
-- agent.cfg - contains my services configuration (Acts as an Agent with NRPE)
+- LocalAgent.cfg - contains DNS service configuration (Acts as an Agent with NRPE)
+- Webserver.cfg - contains apache2 service configuration (Acts as an Agent with NRPE)
+- MySQL.cfg - contains mySQL service configuration (Acts as an Agent with NRPE)
 - nagios.cfg - contains defualt configurations for schedule checks on host, services
 - nrpe.cfg - nagios plugin server which contains commands to my added services for my Agent
 - commands.cfg - contains default commands to default services
